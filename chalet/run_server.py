@@ -2,7 +2,7 @@
 
 import sys
 
-from apiv1.app import app
+from chalet.app import app
 
 
 def main():

@@ -3,11 +3,11 @@
 
 from flask import Flask
 
-# from apiv1.views import blueprint_first
+# from chalet.views import blueprint_first
 
 
 app = Flask(__name__)
-app.config.from_object("apiv1.config")
+app.config.from_object("chalet.config")
 
 # register blueprint
 # app.register_blueprint(blueprint_first, prefix='/first')
